@@ -19,3 +19,23 @@ Mon 13 May 2024 03:41:31 PM UTC:
  tests:  2|4
 total_score: 15/70
 34deea2
+Mon 13 May 2024 03:59:16 PM UTC: 
+ sudoku.c | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+In file included from test.c:5:
+sudoku.c: In function ‘is_valid’:
+sudoku.c:47:17: error: unused variable ‘l’ [-Werror=unused-variable]
+   47 |    int i, k, j, l;
+      |                 ^
+sudoku.c:47:14: error: unused variable ‘j’ [-Werror=unused-variable]
+   47 |    int i, k, j, l;
+      |              ^
+sudoku.c:47:11: error: unused variable ‘k’ [-Werror=unused-variable]
+   47 |    int i, k, j, l;
+      |           ^
+sudoku.c:47:8: error: unused variable ‘i’ [-Werror=unused-variable]
+   47 |    int i, k, j, l;
+      |        ^
+cc1: all warnings being treated as errors
+Compilation failed
+f1a17f8
