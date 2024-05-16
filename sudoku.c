@@ -73,9 +73,8 @@ int is_valid(Node* n){
       }
       
    }
-   if(isvalid(n)){
-      return 1;
-   }
+   
+   return 1;
 }
 
 
